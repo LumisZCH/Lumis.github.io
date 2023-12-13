@@ -1530,6 +1530,16 @@ figcaption {
   color: #7aeb9c;
 }
 
+.heading-16 {
+  width: 15%;
+  height: 5%;
+  color: #66c281;
+  margin-bottom: 72px;
+  position: relative;
+  top: -450px;
+  left: 732px;
+}
+
 @media screen and (min-width: 1440px) {
   .hero {
     overflow: visible;
@@ -1812,6 +1822,25 @@ figcaption {
     color: #7aeb9c;
     margin-left: 312px;
   }
+
+  .heading-14 {
+    font-size: 10px;
+  }
+
+  .heading-15 {
+    height: 7%;
+  }
+
+  .heading-16 {
+    width: 15%;
+    height: 7%;
+    color: #66c281;
+    margin-bottom: 54px;
+    margin-left: 2px;
+    position: relative;
+    top: -430px;
+    left: 972px;
+  }
 }
 
 @media screen and (max-width: 991px) {
@@ -1989,6 +2018,10 @@ figcaption {
   .div-block-40 {
     margin-left: 384px;
   }
+
+  .heading-16 {
+    left: 467px;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -2107,6 +2140,11 @@ figcaption {
 
   .div-block-40 {
     margin-left: 374px;
+  }
+
+  .heading-16 {
+    margin-bottom: 102px;
+    top: -588px;
   }
 }
 
@@ -2332,6 +2370,12 @@ figcaption {
 
   .div-block-40 {
     margin-left: 186px;
+  }
+
+  .heading-16 {
+    margin-top: 92px;
+    margin-bottom: -15px;
+    margin-left: -220px;
   }
 }
 
