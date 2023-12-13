@@ -10,6 +10,7 @@
 
 body {
   color: #333;
+  background-image: none;
   font-family: Roboto, sans-serif;
   font-size: 14px;
   line-height: 20px;
@@ -246,8 +247,18 @@ figcaption {
 }
 
 .column {
+  aspect-ratio: auto;
+  opacity: 1;
+  -webkit-text-fill-color: inherit;
+  object-fit: fill;
+  background-clip: border-box;
   border: 1px #000;
+  border-radius: 0;
   flex: 1;
+  margin-bottom: 0;
+  margin-left: 0;
+  font-family: Roboto, sans-serif;
+  position: static;
   overflow: hidden;
 }
 
@@ -256,6 +267,7 @@ figcaption {
   min-height: 100vh;
   color: #fff;
   background-color: rgba(0, 0, 0, .75);
+  flex-wrap: nowrap;
   flex: none;
   align-items: center;
   padding-left: 15vw;
@@ -270,11 +282,6 @@ figcaption {
 }
 
 .column.background-image {
-  background-image: url('https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg');
-  background-position: 100%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
   margin-top: 0;
   overflow: visible;
 }
@@ -445,10 +452,19 @@ figcaption {
 
 .wrapper {
   width: 100%;
+  clear: none;
+  opacity: 1;
+  mix-blend-mode: normal;
+  object-fit: fill;
   background-color: #fff;
-  justify-content: space-between;
-  align-items: stretch;
+  border: 1px #000;
+  border-radius: 0;
+  flex-flow: row;
+  align-content: space-around;
+  justify-content: flex-end;
+  align-items: center;
   display: flex;
+  overflow: visible;
 }
 
 .wrapper.contact {
@@ -508,6 +524,7 @@ figcaption {
 }
 
 .main-section {
+  background-color: #fff;
   flex-direction: column;
   align-items: center;
   display: flex;
@@ -905,6 +922,7 @@ figcaption {
 .proj_body-wrap {
   width: 90vw;
   text-align: center;
+  margin-top: -147px;
 }
 
 ._w-form {
@@ -979,7 +997,7 @@ figcaption {
 }
 
 .heading-8 {
-  color: #65a1c1;
+  color: #72c469;
   margin-bottom: -60px;
   padding-bottom: 0;
   padding-left: 0;
@@ -1013,6 +1031,55 @@ figcaption {
   font-size: 45px;
   font-style: normal;
   line-height: 15px;
+}
+
+.body-2 {
+  aspect-ratio: auto;
+  pointer-events: auto;
+  overflow-wrap: normal;
+}
+
+.div-block-28 {
+  object-fit: cover;
+}
+
+.div-block-29 {
+  z-index: auto;
+  width: 1460px;
+  height: 850px;
+  aspect-ratio: auto;
+  object-fit: fill;
+  background-image: url('../images/Homepage.png');
+  background-position: 70%;
+  background-repeat: no-repeat;
+  background-size: 900px;
+  margin-bottom: -87px;
+  padding-bottom: 0;
+  display: block;
+  position: fixed;
+  overflow: visible;
+}
+
+.collection-list {
+  object-fit: fill;
+  overflow: visible;
+}
+
+.collection-list-wrapper {
+  overflow: visible;
+}
+
+.div-block-30 {
+  width: 1000px;
+  height: 1000px;
+  background-image: url('../images/logo-ig.jpg');
+  background-position: 0 0;
+  background-size: auto;
+  position: fixed;
+}
+
+.image-9, .image-10 {
+  position: fixed;
 }
 
 @media screen and (max-width: 991px) {
