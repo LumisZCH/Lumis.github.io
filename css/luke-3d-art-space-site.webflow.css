@@ -1658,9 +1658,22 @@ figcaption {
   right: 0%;
 }
 
+.div-block-46 {
+  color: #272727;
+  background-image: linear-gradient(rgba(0, 0, 0, .89), rgba(0, 0, 0, .89));
+  margin-top: 827px;
+  margin-bottom: 124px;
+  padding-top: 0;
+  padding-bottom: 118px;
+}
+
 @media screen and (min-width: 1440px) {
   .hero {
     overflow: visible;
+  }
+
+  .wrapper.center {
+    margin-bottom: -24px;
   }
 
   .wrapper-info.contact {
@@ -1962,6 +1975,10 @@ figcaption {
 }
 
 @media screen and (min-width: 1920px) {
+  .div-block-37 {
+    margin-bottom: 143px;
+  }
+
   .text-block-9 {
     margin-right: 272px;
   }
